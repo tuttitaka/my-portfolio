@@ -15,6 +15,7 @@ export const Wrapper = styled.div`
     padding: 0 2rem;
     height: 70px;
     font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
 `;
 
 
