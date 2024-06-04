@@ -2,6 +2,7 @@ import React from 'react';
 import { GlobalStyles } from './styles/GlobalStyles';
 import { Header } from './Header/Header';
 import { Article } from './Article/Article';
+import { Carousel } from './Carousel/Carousel';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <GlobalStyles/>
         <Article />
+        <Carousel />
       </>
     </div>
   );

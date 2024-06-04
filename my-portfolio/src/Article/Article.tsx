@@ -1,11 +1,12 @@
 import React from "react";
 import * as S from "./styles"
-import imagAvatar from "../Assets/Avatar.jpeg"
+import imagAvatar from "../Assets/img/Avatar.jpeg"
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaSass } from "react-icons/fa";
 import { SiStyledcomponents } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
 
 
 export const Article:  React.FC = () => {
@@ -22,11 +23,12 @@ export const Article:  React.FC = () => {
                 </S.TitleArticle>
                 <S.TextArticle>
                             Sou Desenvolvedor Júnior, Iniciando Minha Jornada na Carreira de Front-End <br /><br />
-                            Durante minha jornada como desenvolvedor júnior, tenho buscado absorver conhecimentos em HTML, CSS e JavaScript, os pilares fundamentais da construção de interfaces web interativas e responsivas. Além disso, estou explorando frameworks modernos como React.js, buscando aprofundar meu conhecimento e expandir minha habilidade de criar experiências digitais inovadoras.
+                            Durante minha jornada como desenvolvedor júnior, tenho buscado absorver conhecimentos em HTML, CSS e JavaScript, Typescript e React  os pilares fundamentais da construção de interfaces web interativas e responsivas. Além disso, estou explorando frameworks modernos como React.js, buscando aprofundar meu conhecimento e expandir minha habilidade de criar experiências digitais inovadoras.
                     </S.TextArticle>
 
                     <S.IconArticle>
-                        <FaHtml5 /> <IoLogoCss3 /> <FaReact /> <FaSass />
+                        <FaHtml5 /> <IoLogoCss3 /> <BiLogoTypescript />
+                        <FaReact /> <FaSass />
                         <SiStyledcomponents />
                     </S.IconArticle>
             </S.InfoWrapper>

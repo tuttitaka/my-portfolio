@@ -46,6 +46,6 @@ export const IconArticle = styled.p `
     color: white;
     letter-spacing: 16px;
     text-align: center;
-    margin-top: 16px;
+    margin-top: 50px;
 `
 
