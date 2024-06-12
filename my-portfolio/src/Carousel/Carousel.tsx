@@ -44,12 +44,10 @@ export const Carousel: React.FC = () => {
             {imgs.map((image, index) => (
               <S.Item key={index}>
                 <img src={image.src} alt="" />
-                <S.Description
-                  href={image.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {image.description}
+                <S.Description>
+                  <a href={image.url} target="_blank" rel="noopener noreferrer">
+                    {image.description}
+                  </a>
                 </S.Description>
               </S.Item>
             ))}
