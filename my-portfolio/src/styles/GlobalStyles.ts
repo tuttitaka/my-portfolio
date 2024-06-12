@@ -10,5 +10,11 @@ export const GlobalStyles = createGlobalStyle `
 
     body{
         background-color: black;
+
     }
+    
+     & > a {
+    color: inherit;
+    text-decoration: none;
+  }
 `
