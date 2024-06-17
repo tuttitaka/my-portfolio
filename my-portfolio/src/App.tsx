@@ -3,6 +3,7 @@ import { GlobalStyles } from './styles/GlobalStyles';
 import { Header } from './Header/Header';
 import { Article } from './Article/Article';
 import { Carousel } from './Carousel/Carousel';
+import { Footer } from './Footer/styles';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <GlobalStyles/>
         <Article />
         <Carousel />
+        <Footer />
       </>
     </div>
   );

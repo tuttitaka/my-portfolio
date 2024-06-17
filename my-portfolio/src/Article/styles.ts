@@ -38,7 +38,7 @@ export const TextArticle = styled.p `
     width: 700px;
     margin-top: 30px;
     text-align: center;
-    color: white;
+    color: #C5C5C5;
     font-size: 18px;
 `
 export const IconArticle = styled.p `
