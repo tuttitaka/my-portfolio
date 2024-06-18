@@ -3,7 +3,7 @@ import { GlobalStyles } from './styles/GlobalStyles';
 import { Header } from './Header/Header';
 import { Article } from './Article/Article';
 import { Carousel } from './Carousel/Carousel';
-import { Footer } from './Footer/styles';
+import { Footer } from './Footer/Footer';
 
 function App() {
   return (
