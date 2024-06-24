@@ -1,14 +1,18 @@
 import styled from "styled-components";
- 
+
 export const WrapperCarousel = styled.div`
   margin: 0 auto;
   display: flex;
   align-items: center;
-  width: 200%;
+  width: 100%;
   max-width: 1000px;
   overflow: hidden;
   justify-content: center;
   cursor: grab;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const WrapperItens = styled.div`
@@ -24,9 +28,27 @@ export const Itens = styled.div`
   img {
     display: block;
     width: 100%;
-    height: 90%;
+    height: auto;
     border-radius: 10px;
     pointer-events: none;
+    object-fit: cover;
+
+    @media (max-width: 768px) {
+      height: 200px;
+    }
+
+    @media (max-width: 480px) {
+      height: 150px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    min-width: 300px;
+  }
+
+  @media (max-width: 480px) {
+    min-width: 200px;
+    gap: 1rem;
   }
 `;
 
@@ -35,6 +57,10 @@ export const Item = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 0 10px;
+
+  @media (max-width: 480px) {
+    margin: 0 5px;
+  }
 `;
 
 export const Description = styled.div`
@@ -42,6 +68,14 @@ export const Description = styled.div`
   font-size: 16px;
   color: white;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 12px;
+  }
 
   a {
     color: inherit;

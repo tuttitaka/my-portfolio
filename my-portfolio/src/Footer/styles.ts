@@ -7,21 +7,37 @@ export const FooterContainer = styled.footer`
   color: #fff;
   padding: 20px 0;
   text-align: center;
+  @media (max-width: 768px) {
+    padding: 10px 0;
+  }
 `
 
 export const FooterText = styled.p`
   margin: 0;
   font-size: 14px;
 
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+
   a {
     margin: 0 3px;
     color: #fff;
     font-size: 20px;
+
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
   }
 `;
 export const ContactText = styled.span`
   font-size: 18px; 
   margin-left: 10px;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    margin-left: 5px;
+  }
 `;
 
 
@@ -43,7 +59,10 @@ a {
   margin: 0 10px;
   color: #fff;
   font-size: 20px;
-
+  @media (max-width: 768px) {
+      font-size: 24px;
+      margin: 0 10px;
+    }
   &:hover {
     color: #0070f3;
   }
